@@ -4,7 +4,8 @@
 
   <h3>
 
-    <a [title]="product.name + ' detils'">
+    <a [title]="product.name + ' detils'" [routerLink]=
+  "['/products',productId]">
       {{product.name}}
     </a>
     
@@ -19,7 +20,8 @@
   </button>
 
   <app-product-alerts
-    [product]="product">
+    [product]="product"
+    (notify)="onNotify()">
   </app-product-alerts>
 
 
