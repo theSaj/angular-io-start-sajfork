@@ -6,7 +6,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
-import { AppProductsAlertsComponent } from './app-products-alerts/app-products-alerts.component';
+import { AppProductAlertsComponent } from './app-product-alerts/app-product-alerts.component';
 
 @NgModule({
   imports: [
